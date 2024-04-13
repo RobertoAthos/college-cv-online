@@ -1,0 +1,66 @@
+/**
+ * Estilos para a seção de educação.
+ */
+
+#education{
+    width: 100%;
+    max-width: 1024px;
+    height: 50vh;
+    margin: auto;
+    border-bottom: 1px solid var(--light-color);
+    font-size: 1.3rem;
+}
+
+/**
+ * Estilos para o texto da seção de educação.
+ */
+
+#education-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+/**
+ * Estilos para o título da seção de educação.
+ */
+
+#education-text h3{
+   margin: 1rem 0 1rem 0;
+}
+
+/**
+ * Estilos para os links dentro do texto da seção de educação.
+ */
+
+#education-text p a{
+    text-decoration: underline;
+    color: var(---primary-blue);
+}
+
+/**
+ * Estilos para cada curso na seção de educação.
+ */
+
+.course{
+ margin: 3rem 0 3rem 0;  
+}
+
+/**
+ * Estilos para o parágrafo de cada curso na seção de educação.
+ */
+
+.course p{
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+/**
+ * Estilos para os links dentro do parágrafo de cada curso na seção de educação.
+ */
+
+.course a{
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(---primary-blue);
+}

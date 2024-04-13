@@ -1,0 +1,64 @@
+/**
+ * Estilos para a seção de contato.
+ *
+ * #contact: Define as propriedades da seção de contato, como largura, altura e margens.
+ *
+ * form: Define as propriedades do formulário dentro da seção de contato, como largura, exibição em coluna e margem superior.
+ *
+ * form input: Define as propriedades dos campos de entrada do formulário, como preenchimento, margem, borda e tamanho da fonte.
+ *
+ * form textarea: Define as propriedades da área de texto do formulário, como preenchimento, margem, altura, borda, tamanho da fonte e contorno.
+ *
+ * form button: Define as propriedades do botão do formulário, como preenchimento, margem superior, cor de fundo, cor do texto, borda, borda arredondada, cursor e tamanho da fonte.
+ *
+ * form button:hover: Define as propriedades do botão do formulário quando o cursor está sobre ele, como cor de fundo e transição.
+ */
+ 
+#contact{
+    width: 100%;
+    max-width: 1024px;
+    height: 50vh;
+    margin: auto;
+    height: 100vh;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+form input{
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid var(--light-color2);
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+form textarea{
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    height: 200px;
+    border: 1px solid var(--light-color2);
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.3rem;
+}
+
+form button{
+    padding: 0.8rem 1rem;
+    margin-top: 1rem;
+    background-color: var(---primary-blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover{
+    background-color: var(---secondary-blue);
+    transition: 300ms;
+}

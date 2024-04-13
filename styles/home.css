@@ -1,0 +1,131 @@
+/* ------------------ Seção de estilo para a seção principal(hero section) ---------------- */
+
+#hero{
+    width: 100%;
+    max-width: 1024px;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid var(--light-color);
+}
+
+#hero div{
+    margin-top: 1rem;
+    line-height: 2.4rem;
+}
+
+#hero div h2{
+    color: var(--primary-text-color);
+    font-size: 2rem;
+}
+
+#hero div h2 span{
+    color: royalblue;
+}
+
+#hero div p{
+    color: var(--primary-text-color);
+    font-size: 1.2rem;
+}
+
+#hero div button{
+    padding: 0.8rem 1rem;
+    margin-top: 1rem;
+    background-color: var(---primary-blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#hero div button:hover{
+    background-color: var(---secondary-blue);
+    transition: 300ms;
+}
+
+/* ------------------------------------------------------------------ */
+
+
+/* ------------------ Seção de estilo para a seção de projetos ---------------- */
+
+#projects{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    height: 80vh;
+}
+
+#cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+#cards-container > .card{
+    border: 1px solid var(--light-color2);
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 200ms;
+    height: 400px;
+}
+
+#cards-container > .card:hover{
+    transform: scale(1.04);
+    transform: scale(1.05);  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.377);
+  }
+
+#cards-container > .card label{
+    font-size: 1.3rem;
+    color: var(--primary-text-color);
+    font-weight: bold;
+}
+
+#cards-container > .card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+#cards-container > .card p{
+  margin-top: 1rem;
+}
+
+#cards-container > .card button{
+    padding: 0.8rem 1rem;
+    margin-top: 1rem;
+    background-color: var(---primary-blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#cards-container > .card button:hover{
+    background-color: var(---secondary-blue);
+    transition: 300ms;
+}
+
+#more-projects{
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--light-color2);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#more-projects:hover{
+    color: var(---primary-blue);
+    border: 1px solid var(---primary-blue);
+}

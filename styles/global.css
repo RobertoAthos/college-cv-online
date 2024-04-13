@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+
+
+:root {
+    ---primary-blue: royalblue;
+    ---secondary-blue: rgb(41, 71, 161);
+    --primary-text-color: rgb(56, 56, 56);
+    --light-color: rgb(240, 240, 240);
+    --light-color2: rgb(202, 202, 202);
+}
+
+/* ------ Estilização global ------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container{
+    margin-top: 5rem;
+}
+.section-title{
+    font-size: 2.1rem;
+    color: var(--primary-text-color);
+    text-align: left;
+}
+
+/* ------------------ Seção de estilo para o header ---------------- */
+
+header{
+    width: 100%;
+    background-color: var(---primary-blue);
+    color: white;
+}
+
+#header-container{
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(---primary-blue);
+}
+
+#header-container ul{
+    display: inline-flex;
+}
+
+#header-container ul li{
+    margin: 0 1rem 0 1rem;
+}
+
+#header-container ul li:hover{
+   text-decoration: underline;
+}
+
+#header-container ul li a{
+    font-size: 1.2rem;
+}
+
+/* ------------------------------------------------------------------ */
+
+
+footer{
+    width: 100%;
+    background-color: var(---primary-blue);
+    color: white;
+    text-align: center;
+    padding: 5rem;
+}
+
